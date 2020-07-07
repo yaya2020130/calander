@@ -1,5 +1,6 @@
 let date = new Date;
 let currentHour = date.getHours()
+
 let todos = localStorage.getItem('todos') ? JSON.parse(localStorage.getItem('todos')) : {}
 
 for(let i = 9; i<18; i++){
